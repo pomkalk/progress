@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Progress</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="ui container">
+        <div class="ui borderless menu">
+            <div class="header item">
+                <i class="circle icon"></i>
+                Progress
+            </div>
+            <div class="link item" id="start-button">
+                <i class="green play icon"></i>
+                Start job
+            </div>
+        </div>
+
+        <div class="ui basic segment" id="content">
+
+        </div>
+    </div>
+</body>
+</html>
